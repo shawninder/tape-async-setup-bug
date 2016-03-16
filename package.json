@@ -1,0 +1,24 @@
+{
+  "name": "tape-async-setup-bug",
+  "version": "1.0.0",
+  "description": "This repo is a minimal reproduction of an issue I'm having with tape",
+  "scripts": {
+    "broken": "tape broken.js",
+    "fixed": "tape fixed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawninder/tape-async-setup-bug.git"
+  },
+  "author": "Shawn Inder <shawninder@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/shawninder/tape-async-setup-bug/issues"
+  },
+  "homepage": "https://github.com/shawninder/tape-async-setup-bug#readme",
+  "dependencies": {
+    "tape": "^4.5.1"
+  },
+  "engines": {
+    "node" : ">=4"
+  }
+}
